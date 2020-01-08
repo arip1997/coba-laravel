@@ -35,13 +35,11 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset ('frontend/css/main.css')}}">
 <!--===============================================================================================-->
 </head>
-<body
+<body class="animsition">
 
 @include('frontend.layouts.header')
 
 @yield('content')
-
-
 
 @include('frontend.layouts.footer')
 <!--===============================================================================================-->
