@@ -19,7 +19,15 @@ Contact
 			<div class="row">
 				<div class="col-md-6 p-b-30">
 					<div class="p-r-20 p-r-0-lg">
-						<div class="contact-map size21" id="google_map" data-map-x="40.614439" data-map-y="-73.926781" data-pin="{{ asset('frontend/images/icons/icon-position-map.png')}}" data-scrollwhell="0" data-draggable="1"></div>
+
+					<div class="col-5 pl-7">
+                <h3 style="color:black">Alamat</h3>
+                    <p>Graha Pena, Ruang 1503, Jl. Ahmad Yani No.88, Ketintang, Kec. Gayungan, Kota SBY, Jawa Timur 60234</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3018911027684!2d112.72916621433062!3d-7.319946194717215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb6e5d6a4119%3A0xf4b8a16cd623796e!2sPT.%20OTAK%20KANAN!5e0!3m2!1sid!2sid!4v1578541710565!5m2!1sid!2sid"
+                    height="580" width="550" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                </div> 
+						<!-- <div class="contact-map size21" id="google_map" data-map-x="40.614439" data-map-y="-73.926781" data-pin url='frontend/images/icon-position-map.png' data-scrollwhell="0" data-draggable="1"></div> -->
 					</div>
 				</div>
 
