@@ -7,7 +7,7 @@ Cart
 @section('content')
 
 	<!-- Title Page -->
-	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/heading-pages-01.jpg);">
+	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(frontend/images/heading-pages-01.jpg);">
 		<h2 class="l-text2 t-center">
 			Cart
 		</h2>
@@ -31,7 +31,7 @@ Cart
 						<tr class="table-row">
 							<td class="column-1">
 								<div class="cart-img-product b-rad-4 o-f-hidden">
-									<img src="images/item-10.jpg" alt="IMG-PRODUCT">
+									<img src="{{ asset('frontend/images/item-10.jpg')}}" alt="IMG-PRODUCT">
 								</div>
 							</td>
 							<td class="column-2">Men Tshirt</td>
@@ -55,7 +55,7 @@ Cart
 						<tr class="table-row">
 							<td class="column-1">
 								<div class="cart-img-product b-rad-4 o-f-hidden">
-									<img src="images/item-05.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/item-05.jpg" alt="IMG-PRODUCT">
 								</div>
 							</td>
 							<td class="column-2">Mug Adventure</td>
